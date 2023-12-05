@@ -13,10 +13,7 @@ async function IndexPage() {
 
   return(
     <div>
-      <h1>IndexPage</h1>
-      <div>
-        <Users users={users}/>
-      </div>
+      <Users users={users}/>
     </div>
   )
 }
